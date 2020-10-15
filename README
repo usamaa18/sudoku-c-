@@ -1,0 +1,40 @@
+Name: Usama Ali (1582217) and Raamish Naveed (1582029)
+CMPUT 275, Winter 2020
+Final Project: Sudoku generator, solver and checker
+
+Included Files:
+	*MAIN.cpp
+	*verify_full.h
+	*verify_full.cpp
+	*create_full.h
+	*create_full.cpp
+	*solve_brute.h
+	*solve_brute.cpp
+	*Makefile
+	*sudoku.txt
+	*README
+
+Description: 
+	*verify_full.cpp checks to see if an completed Sudoku is valid or not by checking rows, columns, and the 3x3 square matrix
+	*create_full.cpp generates a solved or unsolved Sudoku (3 difficulty levels)
+	*solve_brute.cpp solves a sudoku if you're unable to solve it
+
+Running Instructions:
+	1) Open the terminal and navigate to the correct program directory.
+	2) Type in "make " to compile/link the program files.
+	3) Type in "./MAIN" to run the program.
+	4) When needed, the sudoku is to be typed in 9 numbers at a time separated by a space, then click enter, and type in the next 9 numbers, and so on, until all the 9 rows are entered in. Use 0 to indicate blanks. We have included a few sample test cases (sudoku.txt) for your convenience (copy paste them in).
+
+
+Notes and Assumptions:
+	-Only numbers are entered, no letters
+	-User inputs the the numbers in the correct order and type
+	-A 0 indicates an empty slot in the Sudoku
+
+Acknowledgements:
+	-the check_squares function used in full_verify.cpp was referenced from: https://www.educative.io/edpresso/
+
+Breakdown:
+	*create_full.cpp and solve brute.cpp were worked on by Usama
+	*verify_full.cpp and main.cpp were worked on by Raamish
+	*header files and Makefile were worked on by Raamish and Usama
